@@ -1,4 +1,4 @@
-[**SELinux home**](Security/SELinux.md)
+[**SELinux home**](/Security/SELinux.md)
 ## Disable SELinux
 ***
 References:
