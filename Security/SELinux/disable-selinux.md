@@ -2,7 +2,7 @@
 ## Disable SELinux
 ***
 ### References:
-- [Redhat Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/selinux_users_and_administrators_guide/sect-security-enhanced_linux-enabling_and_disabling_selinux-dracut-parameters)
+- [Redhat 9 Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/using_selinux/changing-selinux-states-and-modes_using-selinux#changing-selinux-modes-at-boot-time_changing-selinux-states-and-modes)
 - Redhat solution (https://access.redhat.com/solutions/3176)
 - Ubuntu 22.04 Jammy selinux-config-enforcing (https://manpages.ubuntu.com/manpages/jammy/man8/selinux-config-enforcing.8.html)
 - Ubuntu 22.04 Jammy selinux (https://manpages.ubuntu.com/manpages/jammy/man8/selinux.8.html)
@@ -31,4 +31,4 @@ getenforce
 
 ## See Also:
 ***
-
+- [Change Enforcing Mode](change-enforcing-modes.md)
