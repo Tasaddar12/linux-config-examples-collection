@@ -1,12 +1,13 @@
 [**SELinux home**](/Security/SELinux.md)
 ## Disable SELinux
 ***
-References:
+### References:
 - [Redhat Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/selinux_users_and_administrators_guide/sect-security-enhanced_linux-enabling_and_disabling_selinux-dracut-parameters)
 - Redhat solution (https://access.redhat.com/solutions/3176)
 - Ubuntu 22.04 Jammy selinux-config-enforcing (https://manpages.ubuntu.com/manpages/jammy/man8/selinux-config-enforcing.8.html)
 - Ubuntu 22.04 Jammy selinux (https://manpages.ubuntu.com/manpages/jammy/man8/selinux.8.html)
 
+### Steps:
 **_Backup `/boot/grub2/grub.cfg`_**
 ```bash
 sudo cp -p /boot/grub2/grub.cfg /root/grub.bak
