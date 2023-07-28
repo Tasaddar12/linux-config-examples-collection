@@ -2,12 +2,10 @@
 **Link to SELinux git** (https://github.com/SELinuxProject/selinux)
 
 **Table of contents**
+- [Security Home](/Security/README.md)
 - [Commands](#commands)
 - [Purpose of SELinux](#purpose-of-selinux)
 - [Usage Examples](#usage-examples)
-
-# Commands:
-- `semanage` : [Ubuntu 22.04 Jammy](https://manpages.ubuntu.com/manpages/jammy/man8/semanage.8.html) OR [man7](https://www.man7.org/linux/man-pages/man8/semanage.8.html)
 
 # Purpose of SELinux:
 **Information is from _[Redhat](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/configuring_basic_system_settings/assembly_configuring-system-security_configuring-basic-system-settings#con_managing-basic-selinux-settings_assembly_configuring-system-security)_**
@@ -23,6 +21,8 @@ SELinux has two possible states:
 # Usage Examples:
 **Links to examples**
 - [Disable Selinux](SELinux/disable-selinux.md)
+- [Change Enforcing Modes](SELinux/change-enforcing-modes.md)
+- [Applying fcontexts](SELinux/apply-fcontexts.md)
 
 
 
