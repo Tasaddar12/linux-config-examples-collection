@@ -1,4 +1,4 @@
-[Security Home](/Security/README.md)
+[**Security Home**](/Security/README.md)
 
 # Quick Links:
 **Link to SELinux git** (https://github.com/SELinuxProject/selinux)
