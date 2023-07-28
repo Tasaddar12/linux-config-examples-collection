@@ -1,8 +1,9 @@
+[Security Home](/Security/README.md)
+
 # Quick Links:
 **Link to SELinux git** (https://github.com/SELinuxProject/selinux)
 
 **Table of contents**
-- [Security Home](/Security/README.md)
 - [Commands](#commands)
 - [Purpose of SELinux](#purpose-of-selinux)
 - [Usage Examples](#usage-examples)
