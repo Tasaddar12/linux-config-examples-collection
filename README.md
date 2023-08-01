@@ -1,6 +1,15 @@
 # linux-config-examples-collection
 A collection of small guides / examples for different configurations of services, commands, processes, and more.
 
+## Purpose
+I am creating this slowly so I can have a collection of different methods in linux to do various configurations.
+I dont have much time often to add to this so it will be a slow process, but hopefully after research and time I can accomplish everything below.
+I would like to expand this to encompass much more than the list below, but for now lets stick with "easy" things.
+
+**Please offer additional examples for anything you can as it will be very helpful, and if you want to refactor the current layout feel free to do so as long as it improves readability.**
+
+
+
 ## Todos:
 - [ ] Security Collection
   - [ ] SELinux Section for examples covering much of it
