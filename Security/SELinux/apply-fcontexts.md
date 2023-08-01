@@ -5,6 +5,7 @@
 - [References](#references)
 - [httpd_sys_content_t example](#configure-httpd-sys-dir-context)
 - [httpd_user_content_t example](#configure-httpd-user-dir-context)
+- [container_file_t example](#configure-container-dir-context)
 
 ### References:
 - Ubuntu 22.04 semanage-fcontext (https://manpages.ubuntu.com/manpages/jammy/man8/semanage-fcontext.8.html)
@@ -30,6 +31,16 @@ semanage fcontext -at httpd_user_content_t "/home/webuser/www(/.*)?" # Apply con
 restorecon -Rv /home/webuser/www # Save / Set context
 ```
 
+### Configure Container Dir Context
+**This is without using :Z option in the volume (Yes we can do it even easier, but this page is for ONLY SELinux fcontext)**
+```bash
+# Setup fcontext
+semanage fcontext -at container_file_t "/public_html(/.*)?"
+restorecon -Rv /public_html
+
+# Start a container that uses a volume
+podman run --rm -d --name httpd-server -p 8080:80 -v /public_html:/usr/local/apache2/htdocs httpd:latest
+```
 
 ## See Also:
 ***
